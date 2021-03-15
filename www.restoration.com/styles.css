@@ -1,0 +1,36 @@
+body {
+	background: #196dff;
+	
+	background-image : url(back.png) ;
+}
+#main {
+	height : 400px;
+	width : 800px;
+	background: url(img2.png);
+	margin:30px auto;
+	margin-top: 50px auto;
+}
+h1 {
+	color : white;
+	text-align : center;	
+}
+ul{
+	 list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     background-color: #66666;	
+}
+li {
+	float:left;
+}
+li a{
+	 display: block;
+	 color: black;
+     text-align: center;
+     padding: 16px;
+     text-decoration: none;
+}
+li a:hover {
+  background-color: #129dff;
+}
